@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JR Deals</title>
+    <link rel="stylesheet" href="css2/ProjectCSSV3.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="title">🚗 JR Deals</div>
+      <div class="auth-wrapper">
+        <div class="auth-container">
+          <button class="btn btn-sign-in" id="show-sign-in-form">
+            Sign&nbsp;In
+          </button>
+          <button class="btn btn-sign-up" id="show-sign-up-form">
+            Sign&nbsp;Up
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <br /><br /><br /><br /><br />
+      <div class="description">
+        Welcome to JR Deals! Discover a variety of cars to buy and sell from
+        different brands. Find reliable dealers and explore the best deals in
+        the automotive world.
+      </div>
+      <div class="description3">Please Sign in to continue</div>
+    </main>
+
+    <div id="form-container" class="form-container">
+      <div id="form-wrapper" class="form-wrapper">
+        <form id="sign-in-form" class="sign-form" method="POST" novalidate>
+          <button type="button" id="close-btn-signin" class="close-btn">
+            ✖
+          </button>
+          <div class="form-title-container">
+            <h2 class="form-title" id="sign-in-title">Sign In</h2>
+          </div>
+          <label for="usernameSignIn">Username:</label>
+          <input
+            type="text"
+            id="usernameSignIn"
+            name="usernameSignIn"
+            class="input-field"
+            required
+          />
+          <label for="password-signin">Password:</label>
+          <input
+            type="password"
+            id="password-signin"
+            name="passwordSignIn"
+            class="input-field"
+            required
+          />
+          <button type="submit" name="sign-in" class="btn btn-submit">
+            Sign In
+          </button>
+          <p class="form-warning" id="sign-in-warning" style="display: none">
+            All fields must be filled.
+          </p>
+        </form>
+
+        <form id="sign-up-form" class="sign-form" method="POST" novalidate>
+          <button type="button" id="close-btn-signup" class="close-btn">
+            ✖
+          </button>
+          <div class="form-title-container">
+            <h2 class="form-title" id="sign-up-title">Sign Up</h2>
+          </div>
+          <label for="usernameSignUp">Username:</label>
+          <input
+            type="text"
+            id="usernameSignUp"
+            name="usernameSignUp"
+            class="input-field"
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="input-field"
+            required
+          />
+          <label for="password-signup">Password:</label>
+          <input
+            type="password"
+            id="password-signup"
+            name="passwordSignUp"
+            class="input-field"
+            required
+          />
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            class="input-field"
+            required
+          />
+          <button type="submit" name="sign-up" class="btn btn-submit">
+            Sign Up
+          </button>
+          <p class="form-warning" id="sign-up-warning" style="display: none">
+            All fields must be filled.
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <p>
+        © This website is created by <b>Rudy Azar</b> and
+        <b>Joey Kourieh</b> for educational purposes only.
+      </p>
+      <p>Project for the <b>GIN446</b> USEK course.</p>
+      <ul class="links">
+        <li>
+          <a href="https://rudyazar.infinityfreeapp.com" target="_blank"
+            >Rudy Azar</a
+          >
+        </li>
+        <li>
+          <a href="https://joeykourieh.great-site.net/?i=1 " target="_blank"
+            >Joey Kourieh</a
+          >
+        </li>
+      </ul>
+    </footer>
+    <script src="js2/ProjectJSV6.js"></script>
+  </body>
+</html>
